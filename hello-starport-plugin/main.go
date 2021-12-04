@@ -11,7 +11,7 @@ var (
 type hello struct {
 }
 
-func (p *hello) Initialize() {
+func (p *hello) Init() {
 	fmt.Println("Initialize plugin")
 }
 
