@@ -32,7 +32,7 @@ func (p *hello) SayHello(name string) {
 }
 
 func (p *hello) Banner(name string) {
-	banner.Printf(name + "\n")
+	banner.Printf(name)
 }
 
 func (p *hello) Help(name string) string {
