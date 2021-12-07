@@ -27,7 +27,7 @@ func (p *plugin) AddInt(a, b int) {
 }
 
 func (p *plugin) MulInt(a, b int) {
-	log.Printf("Multiply: %d + %d = %d", a, b, a*b)
+	log.Printf("Multiply: %d X %d = %d", a, b, a*b)
 }
 
 var Plugin plugin
